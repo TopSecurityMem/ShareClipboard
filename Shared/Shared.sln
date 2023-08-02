@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareClipboard", "ShareClipboard\ShareClipboard.csproj", "{177F2C1A-B8D9-43DD-B12E-A15D20774900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDynamicLayer", "DataDynamicLayer\DataDynamicLayer.csproj", "{DADBED63-9BCB-4A52-87F0-3260518C814C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177F2C1A-B8D9-43DD-B12E-A15D20774900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177F2C1A-B8D9-43DD-B12E-A15D20774900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177F2C1A-B8D9-43DD-B12E-A15D20774900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177F2C1A-B8D9-43DD-B12E-A15D20774900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADBED63-9BCB-4A52-87F0-3260518C814C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADBED63-9BCB-4A52-87F0-3260518C814C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADBED63-9BCB-4A52-87F0-3260518C814C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADBED63-9BCB-4A52-87F0-3260518C814C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7506DD5A-3F5D-4E0A-8638-65A3F318BA8D}
+	EndGlobalSection
+EndGlobal

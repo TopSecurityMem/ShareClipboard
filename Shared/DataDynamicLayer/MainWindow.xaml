@@ -1,0 +1,27 @@
+﻿<Window x:Class="DataDynamicLayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataDynamicLayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="LvEmployees" Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="1" Width="Auto" Height="Auto"
+                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
+            <ListView.View>
+                <GridView AllowsColumnReorder="True">
+                    <GridViewColumn x:Name="c1Employees" Header="Last Name"/>
+                    <GridViewColumn x:Name="c2Employees" Header="First Name"/>
+                    <GridViewColumn x:Name="c3Employees" Header="Titled"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnGetData" Content="Get Data" Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" Width="75" Height="23" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Margin="5" />
+
+    </Grid>
+</Window>
