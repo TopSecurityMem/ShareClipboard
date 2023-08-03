@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "jquery": "^3.7.0",
     "rollup-plugin-monaco-editor": "^0.2.1",
     "vue": "^3.3.4",
     "x2js": "^3.4.4"
